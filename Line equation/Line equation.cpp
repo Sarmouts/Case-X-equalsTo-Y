@@ -22,13 +22,11 @@ int main()
 		{
 			cout << "The equation is indefinite(it is true for any value) so it has infinity positions where x=y " << endl;
 			cout << "================================================================================================ " << endl << endl;
-
 		}
 		else if (a == 0 && b == 0 && c != 0)
 		{
 			cout << "The equation is impossible " << endl;
 			cout << "=================================================================== " << endl << endl;
-
 		}
 		else if (d == 0 && c != 0)
 		{
@@ -44,10 +42,8 @@ int main()
 			cout << "x=y in the position (x,y)=(" << x << "," << x << ")" << endl << endl;
 			cout << "=================================================================== " << endl << endl;
 		}
-
 		//cout << "For your first equation: " << a1 << "x+" << b1 << "y=" << c1 << " x=y in the position (x,y)=(" << x1 << "," << x1 << ")" << endl << endl;
 		//cout << "For your second equation: " << a2 << "x+" << b2 << "y=" << c2 << " x=y in the position (x,y)=(" << x2 << "," << x2 << ")" << endl << endl;
 	}
-
 }
 
